@@ -23,7 +23,7 @@ def calculate(myarg1):
 			stack.append(int(token))
 		except ValueError:
 			arg2 = stack.pop()
-			art1 = stack.pop()
+			arg1 = stack.pop()
 			function = operators[token]
 			result = function(arg1, arg2)
 			stack.append(result)
