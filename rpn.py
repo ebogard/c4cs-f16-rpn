@@ -8,12 +8,15 @@ def multiply(a, b):
 	return a * b
 def divide(a, b):
 	return a / b
+def power(a, b):
+	return a**b
 
 operators = {
 	'+': add,
 	'-': subtract,
 	'*': multiply,
-	'/': divide
+	'/': divide,
+	'^': power
 }
 
 def calculate(myarg1):
